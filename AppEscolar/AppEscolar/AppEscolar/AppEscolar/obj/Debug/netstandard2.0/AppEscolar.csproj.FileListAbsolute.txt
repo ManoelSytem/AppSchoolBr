@@ -1,0 +1,9 @@
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.deps.json
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.dll
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.pdb
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\obj\Debug\netstandard2.0\AppEscolar.csprojResolveAssemblyReference.cache
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\obj\Debug\netstandard2.0\AppEscolar.csproj.CoreCompileInputs.cache
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\obj\Debug\netstandard2.0\AppEscolar.AssemblyInfoInputs.cache
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\obj\Debug\netstandard2.0\AppEscolar.AssemblyInfo.cs
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\obj\Debug\netstandard2.0\AppEscolar.dll
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\obj\Debug\netstandard2.0\AppEscolar.pdb
