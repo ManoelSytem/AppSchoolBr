@@ -2,16 +2,13 @@
 using AppEscolar.Service;
 using AppEscolar.Views;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
+using ImageCircle.Forms.Plugin.Abstractions;
 
 namespace AppEscolar
 {
-	public partial class MainPage : MasterDetailPage
+    public partial class MainPage : MasterDetailPage
 
     {
 
@@ -19,10 +16,11 @@ namespace AppEscolar
         public MainPage()
 		{
             InitializeComponent();
-            ImgbackMenu.Source = ImageSource.FromResource("HenHouseDomotica.Resource.backMenu.jpg");
+            ImgbackMenu.Source = ImageSource.FromResource("AppEscolar.Resource.backMenu.jpg");
             _menuLista = ItemService.GetMenuItens();
             navigationDrawerList.ItemsSource = _menuLista;
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
+            
         }
 
         private void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)

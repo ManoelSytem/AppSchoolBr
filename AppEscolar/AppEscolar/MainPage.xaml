@@ -20,7 +20,7 @@
                         </Grid.RowDefinitions>
                         <Image  x:Name="ImgbackMenu"  Aspect="AspectFill" />
                         <StackLayout Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                            <controls:CircleImage BorderColor="White" BorderThickness="2" Source="profile.png" Aspect="AspectFill" WidthRequest="85" HeightRequest="85" />
+                            <controls:CircleImage   BorderColor="White" BorderThickness="2" Source="MestreReinado.jpg" Aspect="AspectFill" WidthRequest="85" HeightRequest="85" />
                             <Label Text="M.e Pf. Reinaldo Miranda" TextColor="White" FontSize="Medium" />
                         </StackLayout>
                     </Grid>

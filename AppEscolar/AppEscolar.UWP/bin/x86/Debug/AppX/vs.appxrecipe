@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-25T18:44:01.811</Modified>
+      <Modified>2018-05-25T21:13:48.496</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.exe">
       <PackagePath>entrypoint\AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-25T18:43:57.318</Modified>
+      <Modified>2018-05-25T21:13:43.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -721,7 +721,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.dll">
       <PackagePath>AppEscolar.dll</PackagePath>
-      <Modified>2018-05-25T18:40:24.887</Modified>
+      <Modified>2018-05-25T21:13:30.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\AppSchool.png">
       <PackagePath>AppSchool.png</PackagePath>
@@ -991,11 +991,11 @@
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-25T18:43:59.529</Modified>
+      <Modified>2018-05-25T21:13:46.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppEscolar.UWP.exe">
       <PackagePath>AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-25T18:44:01.796</Modified>
+      <Modified>2018-05-25T21:13:48.481</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

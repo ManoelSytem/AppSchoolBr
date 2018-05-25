@@ -5,7 +5,6 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.OS;
 
 namespace AppEscolar.Droid
 {
@@ -18,7 +17,7 @@ namespace AppEscolar.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
+           
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }

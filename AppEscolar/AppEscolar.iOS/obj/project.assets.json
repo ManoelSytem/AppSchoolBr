@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Xam.Plugins.Forms.ImageCircle/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -129,6 +143,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -140,6 +155,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Xam.Plugins.Forms.ImageCircle/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -267,6 +296,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -278,6 +308,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Xam.Plugins.Forms.ImageCircle/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -405,6 +449,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -416,6 +461,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Xam.Plugins.Forms.ImageCircle/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -543,6 +602,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -555,6 +615,37 @@
     }
   },
   "libraries": {
+    "Xam.Plugins.Forms.ImageCircle/2.0.1": {
+      "sha512": "QZHDI3fqRmjoQwdhlCoQ5yjpNPuwvhiLTldseP72x6j+wqHpXxHK9hYmWBNFkCPq6YzxdPLkux1TscFvxPMQPg==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/2.0.1",
+      "files": [
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.XML",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.dll",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.pdb",
+        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.XML",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.pdb",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.pri",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.XML",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.deps.json",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "xam.plugins.forms.imagecircle.2.0.1.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.0.0.482510": {
       "sha512": "kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
       "type": "package",

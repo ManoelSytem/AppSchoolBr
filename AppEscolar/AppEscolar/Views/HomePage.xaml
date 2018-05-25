@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="#3094d2"  >
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-                <Image   Source="" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Image  x:Name="ImgbackMenu" VerticalOptions="Center" HorizontalOptions="Center" />
             </StackLayout>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                 <Button Text="Ligar Luzes do Galiheiro"   TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
