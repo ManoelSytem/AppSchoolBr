@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=Pierce Boggan</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>3534B79FAF332ADBBA93C8EE7CCB1FCCE8B33325C479EA2841888A50FEAB79A4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ec0cc741-fd3e-485c-81be-68815c480690_1.0.0.0_x86__hma5z8g0e8z20</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ec0cc741-fd3e-485c-81be-68815c480690_hma5z8g0e8z20!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-23T23:25:58.577</Modified>
+      <Modified>2018-05-25T18:44:01.811</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.exe">
       <PackagePath>entrypoint\AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-23T23:25:46.984</Modified>
+      <Modified>2018-05-25T18:43:57.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -719,264 +719,264 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-05-11T17:33:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.dll">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.dll">
       <PackagePath>AppEscolar.dll</PackagePath>
-      <Modified>2018-05-23T23:25:25.798</Modified>
+      <Modified>2018-05-25T18:40:24.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\AppSchool.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\AppSchool.png">
       <PackagePath>AppSchool.png</PackagePath>
       <Modified>2018-05-23T23:03:02.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.649</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.869</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:32.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:32.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:32.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:32.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:32.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
       <Modified>2018-05-23T13:01:17.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
       <Modified>2018-05-23T13:01:17.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
       <Modified>2018-05-23T13:01:17.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-05-23T13:01:17.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
       <Modified>2018-05-23T13:01:17.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:32.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:28.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:30.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:31.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-23T23:07:29.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-05-23T13:01:18.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.xr.xml">
       <PackagePath>AppEscolar.UWP.xr.xml</PackagePath>
       <Modified>2018-05-23T18:59:25.666</Modified>
     </AppxPackagedFile>
@@ -988,14 +988,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-05-11T17:33:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-23T23:25:53.395</Modified>
+      <Modified>2018-05-25T18:43:59.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppEscolar\AppEscolar\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppEscolar.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppEscolar.UWP.exe">
       <PackagePath>AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-23T23:25:58.561</Modified>
+      <Modified>2018-05-25T18:44:01.796</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -721,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.iOS\\AppEscolar.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar.iOS\\AppEscolar.iOS.csproj",
       "projectName": "AppEscolar.iOS",
-      "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.iOS\\AppEscolar.iOS.csproj",
+      "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar.iOS\\AppEscolar.iOS.csproj",
       "packagesPath": "C:\\Users\\netob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.iOS\\obj\\",
+      "outputPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -746,8 +746,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj": {
-              "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj"
+            "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj": {
+              "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj"
             }
           }
         }

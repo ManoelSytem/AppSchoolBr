@@ -20,8 +20,8 @@
                 <Button Text="Ligar Luzes do Galiheiro"   TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
             </StackLayout>
         </StackLayout>
-        <Button Text="Desciplinas"   Grid.Row="0" Grid.Column="0"  BackgroundColor="#287cbe"  TextColor="White" />
-        <Button Text="Adicionar Aluno"   Grid.Row="0" Grid.Column="1"  BackgroundColor="#287cbe"  TextColor="White"  />
-        <Button x:Name="LancarNotas" Text="Notas" Grid.Row="1" Grid.Column="0"  BackgroundColor="#5153a9"  TextColor="White"  />
+        <Button Text="Disciplinas"   Grid.Row="0" Grid.Column="0"  BackgroundColor="#ffc044" Image="icondisciplinas.png" TextColor="White" />
+        <Button Text="Adicionar Aluno"   Grid.Row="0" Grid.Column="1"  BackgroundColor="#287cbe" Image="aluno.png" TextColor="White"  />
+        <Button x:Name="LancarNotas" Text="Notas" Grid.Row="1" Grid.Column="0"  BackgroundColor="#5153a9" Image="notas.png" TextColor="White"  />
     </Grid>
 </ContentPage>

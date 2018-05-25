@@ -352,11 +352,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
+      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
       "projectName": "AppEscolar",
-      "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
+      "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
       "packagesPath": "C:\\Users\\netob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar\\obj\\",
+      "outputPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\Microsoft SDKs\\NuGetPackagesFallback\\",

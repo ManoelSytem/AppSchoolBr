@@ -7,7 +7,7 @@ namespace AppEscolar.Model
     public class MasterPageItem
     {
         public string Title { get; set; }
-        //public ImageSource Icon { get; set; }
+        public Xamarin.Forms.ImageSource Icon { get; set; }
         public Type TargetType { get; set; }
     }
 }
