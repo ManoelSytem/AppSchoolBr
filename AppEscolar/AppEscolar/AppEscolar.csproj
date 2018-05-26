@@ -8,6 +8,7 @@
     <None Remove="Resource\aluno.png" />
     <None Remove="Resource\AppSchool.png" />
     <None Remove="Resource\backMenu.jpg" />
+    <None Remove="Resource\fotoperfilaluno.png" />
     <None Remove="Resource\icondisciplinas.png" />
     <None Remove="Resource\MestreReinado.jpg" />
     <None Remove="Resource\Notas.png" />
@@ -17,12 +18,14 @@
     <EmbeddedResource Include="Resource\aluno.png" />
     <EmbeddedResource Include="Resource\AppSchool.png" />
     <EmbeddedResource Include="Resource\backMenu.jpg" />
+    <EmbeddedResource Include="Resource\fotoperfilaluno.png" />
     <EmbeddedResource Include="Resource\icondisciplinas.png" />
     <EmbeddedResource Include="Resource\MestreReinado.jpg" />
     <EmbeddedResource Include="Resource\notas.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="2.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
@@ -45,6 +48,9 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Views\AlunoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AlunoViews\CadastrarAlunoViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\DisciplinaPage.xaml">

@@ -15,3 +15,5 @@ Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 ImageCircle.Forms.Plugin
 netstandard
+SQLite.Net
+SQLite.Net.Platform.XamarinAndroid

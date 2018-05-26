@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEscolar.Views.AlunoViews.CadastrarAlunoViewPage"
+             Title="Cadastro de Aluno">
+   
+    <StackLayout VerticalOptions="Center" Padding="6">
+        <Image x:Name="FotoAluno" HorizontalOptions="Center"  HeightRequest="180"/>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout VerticalOptions="Center">
+                <Button x:Name="BtnCamera" Text="Cãmera" BackgroundColor="#404040e6"/>
+                <Button x:Name="BtnAlbum" Text="Álbum"   BackgroundColor="#404040e6" />
+        </StackLayout>
+    </StackLayout>
+    <StackLayout>
+        <Entry Placeholder="Nome do Aluno" x:Name="txtNome" />
+        <Entry Placeholder="Idade" x:Name="txtIdade" />
+        <Entry Placeholder="Bairro" x:Name="txtBairro" />
+        <Entry Placeholder="Telefone" x:Name="txtTelefone" />
+        <Entry Placeholder="Rg" x:Name="txtRg" />
+    </StackLayout>
+    </StackLayout>
+</ContentPage>

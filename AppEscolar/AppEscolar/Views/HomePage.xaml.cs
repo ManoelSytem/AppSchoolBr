@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppEscolar.Views.AlunoViews;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,10 @@ namespace AppEscolar.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private async void ClikedAdicionarAluno(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CadastrarAlunoViewPage());
+        }
+    }
 }

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "f711f6e70ae49fe17e9fd26b0aea7ee54ecbce4c"
+    "signature": "9af4c1a80054afaac7a4064578db08c2124e9933"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "AppEscolar/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
+          "SQLite.Net-PCL": "3.1.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -21,6 +22,20 @@
       "NETStandard.Library/2.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "SQLite.Net-PCL/3.1.1": {
+        "dependencies": {
+          "SQLite.Net.Core-PCL": "3.1.1"
+        },
+        "runtime": {
+          "lib/net4/SQLite.Net.Platform.Win32.dll": {},
+          "lib/net40/SQLite.Net.Platform.Generic.dll": {}
+        }
+      },
+      "SQLite.Net.Core-PCL/3.1.1": {
+        "runtime": {
+          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
@@ -60,6 +75,20 @@
       "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "SQLite.Net-PCL/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIaIk+k4MwvBeKyzj1kgIegWXYZlaDAHNzsaYP7wNDgSqAdaza8FgCRun7mIZScJD/RIuKxN/b1V+bkC+/WIeA==",
+      "path": "sqlite.net-pcl/3.1.1",
+      "hashPath": "sqlite.net-pcl.3.1.1.nupkg.sha512"
+    },
+    "SQLite.Net.Core-PCL/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/0VdXnyj2srEh5rM1RW/snXJrVGRsxGB3xjW4EkhZIig9N/8EocZZrEr0vwRJU8a9Lz4BrweoLyKwp2evmSIzg==",
+      "path": "sqlite.net.core-pcl/3.1.1",
+      "hashPath": "sqlite.net.core-pcl.3.1.1.nupkg.sha512"
     },
     "Xam.Plugins.Forms.ImageCircle/2.0.1": {
       "type": "package",
