@@ -20,7 +20,7 @@ namespace AppEscolar.Views
 
         private async void ClikedAdicionarAluno(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CadastrarAlunoViewPage());
+            await Navigation.PushAsync(new CadastrarAlunoViewPage(null));
         }
     }
 }

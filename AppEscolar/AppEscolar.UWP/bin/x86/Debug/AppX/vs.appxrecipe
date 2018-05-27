@@ -31,13 +31,17 @@
     <AppXManifest Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-26T19:50:53.533</Modified>
+      <Modified>2018-05-27T01:12:22.050</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.exe">
       <PackagePath>entrypoint\AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-26T19:50:47.513</Modified>
+      <Modified>2018-05-27T01:12:09.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+      <Modified>2018-05-16T04:38:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -703,6 +707,10 @@
       <PackagePath>SQLite.Net.dll</PackagePath>
       <Modified>2015-11-06T19:18:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\xam.plugin.media\4.0.0.9\lib\uap10.0.10240\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2018-05-23T14:27:04.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\xam.plugins.forms.imagecircle\2.0.1\lib\UAP10\ImageCircle.Forms.Plugin.Abstractions.dll">
       <PackagePath>ImageCircle.Forms.Plugin.Abstractions.dll</PackagePath>
       <Modified>2018-01-09T00:19:36.000</Modified>
@@ -729,7 +737,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.dll">
       <PackagePath>AppEscolar.dll</PackagePath>
-      <Modified>2018-05-26T19:50:30.012</Modified>
+      <Modified>2018-05-27T01:11:43.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -995,11 +1003,11 @@
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-26T19:50:51.778</Modified>
+      <Modified>2018-05-27T01:12:17.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppEscolar.UWP.exe">
       <PackagePath>AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-26T19:50:53.518</Modified>
+      <Modified>2018-05-27T01:12:22.035</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

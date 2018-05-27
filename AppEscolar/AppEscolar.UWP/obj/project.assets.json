@@ -234,6 +234,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.1": {
         "type": "package",
         "build": {
@@ -274,6 +286,19 @@
         },
         "runtime": {
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
@@ -318,6 +343,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -563,6 +589,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.1": {
         "type": "package",
         "build": {
@@ -778,6 +816,19 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -820,6 +871,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -1065,6 +1117,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.1": {
         "type": "package",
         "compile": {
@@ -1281,6 +1345,19 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -1323,6 +1400,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -1568,6 +1646,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.1": {
         "type": "package",
         "build": {
@@ -1783,6 +1873,19 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -1825,6 +1928,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -2070,6 +2174,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.1": {
         "type": "package",
         "build": {
@@ -2286,6 +2402,19 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -2328,6 +2457,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -2573,6 +2703,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.1": {
         "type": "package",
         "build": {
@@ -2788,6 +2930,19 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -2830,6 +2985,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -3075,6 +3231,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.1": {
         "type": "package",
         "build": {
@@ -3291,6 +3459,19 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -3333,6 +3514,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLite.Net-PCL": "3.1.1",
+          "Xam.Plugin.Media": "4.0.0.9",
           "Xam.Plugins.Forms.ImageCircle": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -5735,6 +5917,27 @@
         "lib/netstandard1.0/_._"
       ]
     },
+    "Plugin.Permissions/3.0.0.12": {
+      "sha512": "VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
+      "type": "package",
+      "path": "plugin.permissions/3.0.0.12",
+      "files": [
+        "lib/monoandroid71/Plugin.Permissions.dll",
+        "lib/monoandroid71/Plugin.Permissions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.xml",
+        "lib/uap10.0.10240/Plugin.Permissions.dll",
+        "lib/uap10.0.10240/Plugin.Permissions.pri",
+        "lib/uap10.0.10240/Plugin.Permissions.xml",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.xml",
+        "plugin.permissions.3.0.0.12.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
+      ]
+    },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.1": {
       "sha512": "ZGShwJB9yNwHyM+w7g8int9gmurykzvy+SWv74+lCul0ddTmtI9WhXrAg3Dyub9urV7/lUtUjCjH+cSC5/5t7A==",
       "type": "package",
@@ -6871,6 +7074,29 @@
         "sqlite.net.core-pcl.nuspec"
       ]
     },
+    "Xam.Plugin.Media/4.0.0.9": {
+      "sha512": "eMs7uBfbSQN9kWdXzfPVDYdCwrQwzBMruvVYb4d6T64GuJIngdhuTqEVx6wIvn/suQrS7ZaBz7JC/p3BaIXI2g==",
+      "type": "package",
+      "path": "xam.plugin.media/4.0.0.9",
+      "files": [
+        "lib/monoandroid71/Plugin.Media.dll",
+        "lib/monoandroid71/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.10240/Plugin.Media.dll",
+        "lib/uap10.0.10240/Plugin.Media.pri",
+        "lib/uap10.0.10240/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.4.0.0.9.nupkg.sha512",
+        "xam.plugin.media.nuspec"
+      ]
+    },
     "Xam.Plugins.Forms.ImageCircle/2.0.1": {
       "sha512": "QZHDI3fqRmjoQwdhlCoQ5yjpNPuwvhiLTldseP72x6j+wqHpXxHK9hYmWBNFkCPq6YzxdPLkux1TscFvxPMQPg==",
       "type": "package",
@@ -7060,6 +7286,7 @@
       "AppEscolar >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.1",
       "SQLite.Net-PCL >= 3.1.1",
+      "Xam.Plugin.Media >= 4.0.0.9",
       "Xam.Plugins.Forms.ImageCircle >= 2.0.1",
       "Xamarin.Forms >= 3.0.0.482510"
     ]
@@ -7113,6 +7340,10 @@
           "SQLite.Net-PCL": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[4.0.0.9, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",

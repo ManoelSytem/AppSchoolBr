@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.exe">
       <PackagePath>entrypoint\AppEscolar.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
@@ -525,6 +528,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\sqlite.net.core-pcl\3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
       <PackagePath>SQLite.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\xam.plugin.media\4.0.0.9\lib\uap10.0.10240\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\xam.plugins.forms.imagecircle\2.0.1\lib\UAP10\ImageCircle.Forms.Plugin.Abstractions.dll">
       <PackagePath>ImageCircle.Forms.Plugin.Abstractions.dll</PackagePath>

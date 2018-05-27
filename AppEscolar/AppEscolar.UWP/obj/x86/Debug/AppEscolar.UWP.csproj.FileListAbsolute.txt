@@ -598,3 +598,7 @@ C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEsc
 C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
 C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\SQLite.Net.dll
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Plugin.Permissions.dll
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Plugin.Media.dll
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml
+C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\obj\x86\Debug\Plugin.Media.pri.xml

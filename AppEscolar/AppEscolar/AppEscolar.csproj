@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.0.9" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="2.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
@@ -40,10 +41,6 @@
     <Compile Update="Views\DisciplinaPage.xaml.cs">
       <DependentUpon>DisciplinaPage.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -20,4 +20,8 @@
         <Entry Placeholder="Rg" x:Name="txtRg" />
     </StackLayout>
     </StackLayout>
+    <StackLayout>
+        <Button Text="Salvar" x:Name="btnSalvar" Command="{Binding Salvar}" HorizontalOptions="Center"/>
+        <Button Text="Alterar" x:Name="btnAlterar" IsVisible="False" Command="{Binding Alterar}" HorizontalOptions="Center"/>
+    </StackLayout>
 </ContentPage>

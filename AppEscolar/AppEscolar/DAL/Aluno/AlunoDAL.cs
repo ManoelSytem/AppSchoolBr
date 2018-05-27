@@ -10,10 +10,10 @@ using Xamarin.Forms;
 
 namespace AppEscolar.DAL
 {
-    public class AcessoDB : IDisposable
+    public class AlunoDAL : IDisposable
     {
         private SQLiteConnection conexaoSQLite;
-        public AcessoDB()
+        public AlunoDAL()
         {
             var config = DependencyService.Get<IConfig>();
             conexaoSQLite = new SQLiteConnection(config.Plataforma, Path.Combine(config.DiretorioSQLite, "Cadastro.db3"));
