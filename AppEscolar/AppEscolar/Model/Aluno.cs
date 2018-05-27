@@ -7,7 +7,7 @@ namespace AppEscolar.Model
     public class Aluno
     {
         [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
+        public long? Id { get; set; }
 
         [MaxLength(50)]
         public string Nome { get; set; }

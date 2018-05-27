@@ -16,11 +16,11 @@ namespace AppEscolar.Views.AlunoViews
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CadastrarAlunoViewPage : ContentPage
 	{
-        private string titulo;
+        
 		public CadastrarAlunoViewPage (Aluno aluno)
 		{
 			InitializeComponent ();
-            if(aluno.Nome == null)
+            if(aluno.Id == null)
             {
                 btnAlterar.IsVisible = false;
             }
@@ -33,8 +33,8 @@ namespace AppEscolar.Views.AlunoViews
             }
             FotoAluno.Source = ImageSource.FromResource("AppEscolar.Resource.fotoperfilaluno.png");
 
-            var alunoViewModel = new AlunoViewModel(aluno);
-            BindingContext = alunoViewModel;
+           // var alunoViewModel = new AlunoViewModel(aluno);
+            //BindingContext = alunoViewModel;
         }
 
         private async void btnCamera_Clicked(object send, EventArgs e)

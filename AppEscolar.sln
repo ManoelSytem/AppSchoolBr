@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEscolar.iOS", "AppEscola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEscolar.UWP", "AppEscolar\AppEscolar.UWP\AppEscolar.UWP.csproj", "{EBA76E14-ECD9-410F-83F2-99D7CB17B2A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEscolar", "AppEscolar\AppEscolar\AppEscolar.csproj", "{23451A86-AB1E-420E-A2E7-0A34995C2D2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppEscolar", "AppEscolar\AppEscolar\AppEscolar.csproj", "{23451A86-AB1E-420E-A2E7-0A34995C2D2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
