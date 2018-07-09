@@ -21,7 +21,7 @@
     </StackLayout>
         <StackLayout>
             <Entry  x:Name="txtFoto" IsVisible="False" />
-            <Button Text="Salvar" x:Name="btnSalvar" HorizontalOptions="Center" BackgroundColor="#404040e6"/>
+            <Button Text="Salvar" x:Name="btnSalvar" Command="Gravar" HorizontalOptions="Center" BackgroundColor="#404040e6"/>
             <Button Text="Alterar" x:Name="btnAlterar" IsVisible="False"  HorizontalOptions="Center"/>
         </StackLayout>
     </StackLayout>

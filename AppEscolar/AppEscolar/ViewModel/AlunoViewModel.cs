@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace AppEscolar.ViewModel
 {
@@ -91,6 +93,45 @@ namespace AppEscolar.ViewModel
         {
             get { return _foto; }
             set { _foto = value; OnPropertyChanged(); }
+        }
+
+        public ICommand Gravar
+        {
+            get
+            {
+                var alunoDal = new AlunoDAL();
+                return new Command(() =>
+                {
+                    Aluno newAluno = GetAluno();
+
+                    if(newAluno.Nome != null && newAluno.Bairro !=null && newAluno.Foto != null)
+                    {
+                        alunoDAL.InserirAluno(newAluno);
+                        App.Current.MainPage.DisplayAlert("Novo Aluno", "Inclusão realizada com sucesso!", "OK");
+                    }
+                    else
+                    {
+                        App.Current.MainPage.DisplayAlert("Dados Inválidos!", "Verifique os dados do aluno!", "OK");
+                    }
+                }
+                );
+            }
+
+        }
+
+        private Aluno GetAluno()
+        {
+            return new Aluno()
+            {
+                Id = this.Id,
+                Nome = this.Nome,
+                Bairro = this.Bairro,
+                Foto = this.Foto,
+                idade = this.Idade,
+                Rg = this.Rg,
+                Telefone = this.Telefone
+
+            };
         }
     }
 }

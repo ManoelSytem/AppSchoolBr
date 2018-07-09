@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>3534B79FAF332ADBBA93C8EE7CCB1FCCE8B33325C479EA2841888A50FEAB79A4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>02C5BA0BF822DFF5F855DCFE028EC899DFE5B26FDE22BD6AC1E5CC94D80CA5AE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ec0cc741-fd3e-485c-81be-68815c480690_1.0.0.0_x86__hma5z8g0e8z20</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ec0cc741-fd3e-485c-81be-68815c480690_hma5z8g0e8z20!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ec0cc741-fd3e-485c-81be-68815c480690</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-27T20:10:37.700</Modified>
+      <Modified>2018-07-09T17:14:30.609</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\AppEscolar.UWP.exe">
       <PackagePath>entrypoint\AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-27T20:10:30.476</Modified>
+      <Modified>2018-07-09T17:14:25.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
       <PackagePath>Plugin.Permissions.dll</PackagePath>
@@ -737,7 +737,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar\bin\Debug\netstandard2.0\AppEscolar.dll">
       <PackagePath>AppEscolar.dll</PackagePath>
-      <Modified>2018-05-27T20:09:54.886</Modified>
+      <Modified>2018-07-09T17:14:13.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -1003,11 +1003,11 @@
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-27T20:10:34.993</Modified>
+      <Modified>2018-07-09T17:14:27.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\bin\x86\Debug\Core\AppEscolar.UWP.exe">
       <PackagePath>AppEscolar.UWP.exe</PackagePath>
-      <Modified>2018-05-27T20:10:37.683</Modified>
+      <Modified>2018-07-09T17:14:30.594</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
