@@ -1,1 +1,1 @@
-C:\Users\netob\source\repos\DesenvolvimentoXamarin\AppSchoolBr\AppEscolar\AppEscolar.UWP\AppEscolar.UWP.csproj;x86
+C:\Users\netob\source\repos\AppEscolar\AppEscolar\AppEscolar.UWP\AppEscolar.UWP.csproj;x86

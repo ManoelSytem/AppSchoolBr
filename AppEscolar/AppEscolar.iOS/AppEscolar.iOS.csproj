@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F50906B8-048D-4AC8-A50C-AE410FB02206}</ProjectGuid>
+    <ProjectGuid>{F02AA231-B14D-4AF7-800E-25E849FEE138}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>AppEscolar.iOS</RootNamespace>
@@ -118,22 +118,23 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\AppEscolar\AppEscolar.csproj">
-      <Project>{E3381ACE-6CB6-481F-B951-1DE8BA089807}</Project>
-      <Name>AppEscolar</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="SQLite.Net-PCL">
       <Version>3.1.1</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
-      <Version>4.0.0.9</Version>
+      <Version>4.0.1.1</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms">
-      <Version>3.0.0.482510</Version>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.0.0.5</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\AppEscolar\AppEscolar.csproj">
+      <Project>{41CC5C23-CB94-415A-9B6A-5F0B1C410FD0}</Project>
+      <Name>AppEscolar</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

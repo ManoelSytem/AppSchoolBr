@@ -16,7 +16,7 @@ namespace AppEscolar.DAL
         public AlunoDAL()
         {
             var config = DependencyService.Get<IConfig>();
-            conexaoSQLite = new SQLiteConnection(config.Plataforma, Path.Combine(config.DiretorioSQLite, "Cadastro.db3"));
+            conexaoSQLite = new SQLiteConnection(config.Plataforma, Path.Combine(config.DiretorioSQLite, "Escolar.db3"));
             conexaoSQLite.CreateTable<Aluno>();
         }
         public void InserirAluno(Aluno aluno)

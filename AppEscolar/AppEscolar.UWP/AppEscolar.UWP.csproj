@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{EBA76E14-ECD9-410F-83F2-99D7CB17B2A5}</ProjectGuid>
+    <ProjectGuid>{CD6EE75B-244E-4267-B277-16159E6AD732}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppEscolar.UWP</RootNamespace>
@@ -167,23 +167,21 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
     <PackageReference Include="SQLite.Net-PCL">
       <Version>3.1.1</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
-      <Version>4.0.0.9</Version>
+      <Version>4.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
-      <Version>2.0.1</Version>
+      <Version>3.0.0.5</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms">
-      <Version>3.0.0.482510</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppEscolar\AppEscolar.csproj">
-      <Project>{E3381ACE-6CB6-481F-B951-1DE8BA089807}</Project>
+      <Project>{b0f0b974-43fd-4e23-97e4-291a99f1b423}</Project>
       <Name>AppEscolar</Name>
     </ProjectReference>
   </ItemGroup>

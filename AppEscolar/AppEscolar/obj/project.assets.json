@@ -58,7 +58,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "Xam.Plugin.Media/4.0.0.9": {
+      "Xam.Plugin.Media/4.0.1.1": {
         "type": "package",
         "dependencies": {
           "Plugin.Permissions": "3.0.0.12"
@@ -70,20 +70,19 @@
           "lib/netstandard2.0/Plugin.Media.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/2.0.1": {
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Xamarin.Forms": "2.5.0.121934"
+          "Xamarin.Forms": "3.0.0.446417"
         },
         "compile": {
-          "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.dll": {}
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.dll": {}
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.482510": {
+      "Xamarin.Forms/3.1.0.637273": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -294,10 +293,10 @@
         "sqlite.net.core-pcl.nuspec"
       ]
     },
-    "Xam.Plugin.Media/4.0.0.9": {
-      "sha512": "eMs7uBfbSQN9kWdXzfPVDYdCwrQwzBMruvVYb4d6T64GuJIngdhuTqEVx6wIvn/suQrS7ZaBz7JC/p3BaIXI2g==",
+    "Xam.Plugin.Media/4.0.1.1": {
+      "sha512": "AtXsjiiipz6mBgqGfiBCoHKs7w7jxIZ1xJ5EmfOtoGXL0jT33u4hZwWqYpR1dBiF9ByG/ZmMnKfKdnhDMiq1Eg==",
       "type": "package",
-      "path": "xam.plugin.media/4.0.0.9",
+      "path": "xam.plugin.media/4.0.1.1",
       "files": [
         "lib/monoandroid71/Plugin.Media.dll",
         "lib/monoandroid71/Plugin.Media.xml",
@@ -313,46 +312,36 @@
         "lib/xamarinios10/Plugin.Media.dll",
         "lib/xamarinios10/Plugin.Media.xml",
         "readme.txt",
-        "xam.plugin.media.4.0.0.9.nupkg.sha512",
+        "xam.plugin.media.4.0.1.1.nupkg.sha512",
         "xam.plugin.media.nuspec"
       ]
     },
-    "Xam.Plugins.Forms.ImageCircle/2.0.1": {
-      "sha512": "QZHDI3fqRmjoQwdhlCoQ5yjpNPuwvhiLTldseP72x6j+wqHpXxHK9hYmWBNFkCPq6YzxdPLkux1TscFvxPMQPg==",
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+      "sha512": "59HyuAaUzuloQmu/PVCDCJQMRuuhqmIpCQ+d5hH5Qp8AZsa/vDi5ulrXDKRMZSZt/xbXsyZV+aZ/W/SZaYt2Mg==",
       "type": "package",
-      "path": "xam.plugins.forms.imagecircle/2.0.1",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.5",
       "files": [
-        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.dll",
-        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.pdb",
-        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.xml",
-        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.XML",
-        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.dll",
-        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.pdb",
-        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll",
-        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.pdb",
-        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.xml",
-        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.XML",
-        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll",
-        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.pdb",
-        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.pri",
-        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll",
-        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.pdb",
-        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.xml",
-        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.XML",
-        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll",
-        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.deps.json",
-        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.dll",
-        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.pdb",
-        "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.xml",
-        "xam.plugins.forms.imagecircle.2.0.1.nupkg.sha512",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
         "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
-    "Xamarin.Forms/3.0.0.482510": {
-      "sha512": "kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
+    "Xamarin.Forms/3.1.0.637273": {
+      "sha512": "iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
       "type": "package",
-      "path": "xamarin.forms/3.0.0.482510",
+      "path": "xamarin.forms/3.1.0.637273",
       "files": [
+        ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
         "build/netstandard1.0/Mono.Cecil.Rocks.dll",
@@ -486,12 +475,13 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.0.0.482510.nupkg.sha512",
+        "xamarin.forms.3.1.0.637273.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -500,9 +490,9 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
       "SQLite.Net-PCL >= 3.1.1",
-      "Xam.Plugin.Media >= 4.0.0.9",
-      "Xam.Plugins.Forms.ImageCircle >= 2.0.1",
-      "Xamarin.Forms >= 3.0.0.482510"
+      "Xam.Plugin.Media >= 4.0.1.1",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
+      "Xamarin.Forms >= 3.1.0.637273"
     ]
   },
   "packageFolders": {
@@ -516,11 +506,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
+      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
       "projectName": "AppEscolar",
-      "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
+      "projectPath": "C:\\Users\\netob\\source\\repos\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
       "packagesPath": "C:\\Users\\netob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\obj\\",
+      "outputPath": "C:\\Users\\netob\\source\\repos\\AppEscolar\\AppEscolar\\AppEscolar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -564,15 +554,15 @@
           },
           "Xam.Plugin.Media": {
             "target": "Package",
-            "version": "[4.0.0.9, )"
+            "version": "[4.0.1.1, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "[3.0.0.5, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.482510, )"
+            "version": "[3.1.0.637273, )"
           }
         },
         "imports": [

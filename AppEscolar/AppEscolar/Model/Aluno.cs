@@ -1,7 +1,9 @@
-﻿using System;
+﻿using SQLite;
+using SQLite.Net.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using SQLite.Net.Attributes;
+
 namespace AppEscolar.Model
 {
     public class Aluno
