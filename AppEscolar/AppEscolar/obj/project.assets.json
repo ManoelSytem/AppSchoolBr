@@ -26,15 +26,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Plugin.Permissions.dll": {}
-        }
-      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -58,16 +49,15 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "Xam.Plugin.Media/4.0.1.1": {
+      "Xam.Plugin.Media/2.6.2": {
         "type": "package",
-        "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
-        },
         "compile": {
-          "lib/netstandard2.0/Plugin.Media.dll": {}
+          "lib/net45/Plugin.Media.Abstractions.dll": {},
+          "lib/net45/Plugin.Media.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Plugin.Media.dll": {}
+          "lib/net45/Plugin.Media.Abstractions.dll": {},
+          "lib/net45/Plugin.Media.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -243,27 +233,6 @@
         "lib/netstandard1.0/_._"
       ]
     },
-    "Plugin.Permissions/3.0.0.12": {
-      "sha512": "VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
-      "type": "package",
-      "path": "plugin.permissions/3.0.0.12",
-      "files": [
-        "lib/monoandroid71/Plugin.Permissions.dll",
-        "lib/monoandroid71/Plugin.Permissions.xml",
-        "lib/netstandard1.0/Plugin.Permissions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.xml",
-        "lib/netstandard2.0/Plugin.Permissions.dll",
-        "lib/netstandard2.0/Plugin.Permissions.xml",
-        "lib/uap10.0.10240/Plugin.Permissions.dll",
-        "lib/uap10.0.10240/Plugin.Permissions.pri",
-        "lib/uap10.0.10240/Plugin.Permissions.xml",
-        "lib/xamarinios10/Plugin.Permissions.dll",
-        "lib/xamarinios10/Plugin.Permissions.xml",
-        "plugin.permissions.3.0.0.12.nupkg.sha512",
-        "plugin.permissions.nuspec",
-        "readme.txt"
-      ]
-    },
     "SQLite.Net-PCL/3.1.1": {
       "sha512": "eIaIk+k4MwvBeKyzj1kgIegWXYZlaDAHNzsaYP7wNDgSqAdaza8FgCRun7mIZScJD/RIuKxN/b1V+bkC+/WIeA==",
       "type": "package",
@@ -293,26 +262,63 @@
         "sqlite.net.core-pcl.nuspec"
       ]
     },
-    "Xam.Plugin.Media/4.0.1.1": {
-      "sha512": "AtXsjiiipz6mBgqGfiBCoHKs7w7jxIZ1xJ5EmfOtoGXL0jT33u4hZwWqYpR1dBiF9ByG/ZmMnKfKdnhDMiq1Eg==",
+    "Xam.Plugin.Media/2.6.2": {
+      "sha512": "WN5n0205WfjS1zUsLoyfKT4nkTlUtFSvpJ0GvuQ4v3A7AJeXLASAQOB7iND8aVLFI/fg7qHZ6qxzLroAhJaa7g==",
       "type": "package",
-      "path": "xam.plugin.media/4.0.1.1",
+      "path": "xam.plugin.media/2.6.2",
       "files": [
-        "lib/monoandroid71/Plugin.Media.dll",
-        "lib/monoandroid71/Plugin.Media.xml",
-        "lib/netstandard1.0/Plugin.Media.dll",
-        "lib/netstandard1.0/Plugin.Media.xml",
-        "lib/netstandard2.0/Plugin.Media.dll",
-        "lib/netstandard2.0/Plugin.Media.xml",
-        "lib/tizen40/Plugin.Media.dll",
-        "lib/tizen40/Plugin.Media.xml",
-        "lib/uap10.0.10240/Plugin.Media.dll",
-        "lib/uap10.0.10240/Plugin.Media.pri",
-        "lib/uap10.0.10240/Plugin.Media.xml",
-        "lib/xamarinios10/Plugin.Media.dll",
-        "lib/xamarinios10/Plugin.Media.xml",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Media.dll",
+        "lib/MonoAndroid10/Plugin.Media.pdb",
+        "lib/MonoAndroid10/Plugin.Media.xml",
+        "lib/UAP10/Plugin.Media.Abstractions.dll",
+        "lib/UAP10/Plugin.Media.Abstractions.pdb",
+        "lib/UAP10/Plugin.Media.Abstractions.xml",
+        "lib/UAP10/Plugin.Media.dll",
+        "lib/UAP10/Plugin.Media.pdb",
+        "lib/UAP10/Plugin.Media.xml",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Media.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.xml",
+        "lib/net45/Plugin.Media.Abstractions.dll",
+        "lib/net45/Plugin.Media.Abstractions.xml",
+        "lib/net45/Plugin.Media.dll",
+        "lib/net45/Plugin.Media.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.Media.Abstractions.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.Media.Abstractions.pdb",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.Media.Abstractions.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.Media.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.Media.pdb",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.Media.xml",
+        "lib/win8/Plugin.Media.Abstractions.dll",
+        "lib/win8/Plugin.Media.Abstractions.pdb",
+        "lib/win8/Plugin.Media.Abstractions.xml",
+        "lib/win8/Plugin.Media.dll",
+        "lib/win8/Plugin.Media.pdb",
+        "lib/win8/Plugin.Media.xml",
+        "lib/wp8/Plugin.Media.Abstractions.dll",
+        "lib/wp8/Plugin.Media.Abstractions.pdb",
+        "lib/wp8/Plugin.Media.Abstractions.xml",
+        "lib/wp8/Plugin.Media.dll",
+        "lib/wp8/Plugin.Media.pdb",
+        "lib/wp8/Plugin.Media.xml",
+        "lib/wpa81/Plugin.Media.Abstractions.dll",
+        "lib/wpa81/Plugin.Media.Abstractions.pdb",
+        "lib/wpa81/Plugin.Media.Abstractions.xml",
+        "lib/wpa81/Plugin.Media.dll",
+        "lib/wpa81/Plugin.Media.pdb",
+        "lib/wpa81/Plugin.Media.pri",
+        "lib/wpa81/Plugin.Media.xml",
+        "lib/wpa81/Plugin.Media/CameraCaptureUI.xaml",
+        "lib/wpa81/Plugin.Media/CameraCaptureUI.xbf",
+        "lib/wpa81/Plugin.Media/CameraCaptureUIPage.xaml",
+        "lib/wpa81/Plugin.Media/CameraCaptureUIPage.xbf",
+        "lib/wpa81/Plugin.Media/Plugin.Media.xr.xml",
         "readme.txt",
-        "xam.plugin.media.4.0.1.1.nupkg.sha512",
+        "xam.plugin.media.2.6.2.nupkg.sha512",
         "xam.plugin.media.nuspec"
       ]
     },
@@ -490,7 +496,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
       "SQLite.Net-PCL >= 3.1.1",
-      "Xam.Plugin.Media >= 4.0.1.1",
+      "Xam.Plugin.Media >= 2.6.2",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xamarin.Forms >= 3.1.0.637273"
     ]
@@ -506,11 +512,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
+      "projectUniqueName": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
       "projectName": "AppEscolar",
-      "projectPath": "C:\\Users\\netob\\source\\repos\\AppEscolar\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
+      "projectPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\AppEscolar.csproj",
       "packagesPath": "C:\\Users\\netob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\netob\\source\\repos\\AppEscolar\\AppEscolar\\AppEscolar\\obj\\",
+      "outputPath": "C:\\Users\\netob\\source\\repos\\DesenvolvimentoXamarin\\AppSchoolBr\\AppEscolar\\AppEscolar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -554,7 +560,7 @@
           },
           "Xam.Plugin.Media": {
             "target": "Package",
-            "version": "[4.0.1.1, )"
+            "version": "[2.6.2, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
@@ -590,6 +596,16 @@
       "warningLevel": 1,
       "message": "O pacote 'SQLite.Net.Core-PCL 3.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "SQLite.Net.Core-PCL",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Xam.Plugin.Media 2.6.2' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Xam.Plugin.Media",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
       ]

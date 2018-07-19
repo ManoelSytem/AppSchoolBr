@@ -19,7 +19,7 @@ namespace AppEscolar.Views.AlunoViews
         
 		public CadastrarAlunoViewPage (Aluno aluno)
 		{
-			InitializeComponent ();
+			InitializeComponent();
             if(aluno.Id == null)
             {
                 btnAlterar.IsVisible = false;
@@ -33,8 +33,8 @@ namespace AppEscolar.Views.AlunoViews
             }
             FotoAluno.Source = ImageSource.FromResource("AppEscolar.Resource.fotoperfilaluno.png");
 
-            var alunoViewModel = new AlunoViewModel(aluno);
-            BindingContext = alunoViewModel;
+            // var alunoViewModel = new AlunoViewModel(aluno);
+            //BindingContext = alunoViewModel;
         }
 
         private async void btnCamera_Clicked(object send, EventArgs e)
@@ -46,7 +46,6 @@ namespace AppEscolar.Views.AlunoViews
                 return;
             }
 
-            await CrossMedia.Current.Initialize();
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
                 await DisplayAlert("Nenhuma Câmera", ":( Nenuma Câmera disponível.", "OK");
